@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 34px 0 91px;
+}
+
+.header__logo {
+  max-width: 255px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 544px) {
+  .header {
+    padding: 30px 0 90px;
+  }
+
+  .header__logo {
+    max-width: 254px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .header {
+    padding: 20px 0 90px;
+  }
+
+  .header__logo {
+    max-width: 188px;
+  }
+}
